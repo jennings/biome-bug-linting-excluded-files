@@ -1,0 +1,21 @@
+build/
+dist/
+node_modules/
+.idea/
+.vscode/
+storefront-srv
+generate-copy
+/server/.env
+
+.DS_Store
+
+*.local
+*.log
+
+coverage/
+*.testresults.xml
+.lighthouseci/
+
+# no longer using yarn
+yarn.lock
+.yarn/

@@ -1,0 +1,19 @@
+{
+	"name": "storefront",
+	"version": "1.0.0",
+	"main": "index.js",
+	"type": "module",
+	"scripts": {
+		"format": "biome format",
+		"lint": "biome lint"
+	},
+	"engines": {
+		"node": ">=16.0.0"
+	},
+	"engineStrict": true,
+	"private": true,
+	"devDependencies": {
+		"@biomejs/biome": "^2.1.4",
+		"typescript": "^5.7.3"
+	}
+}
